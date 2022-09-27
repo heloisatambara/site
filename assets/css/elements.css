@@ -32,10 +32,6 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  min-height: 100VH;
-}
-
 span{
   color: #550909;
 }
