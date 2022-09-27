@@ -210,5 +210,6 @@
     }
     .main-content .razoes {
         max-height: 30vh;
+        font-size: 2rem;
     }
 }
