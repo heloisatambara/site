@@ -75,14 +75,13 @@
 
 
 
-.content{
+.content {
     max-width: 60rem;
     margin: 0 auto;
     min-height: 100VH;
 }
 
 .main-content {
-    align-items: center;
     min-height: 100VH;
 }
 
@@ -91,12 +90,18 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    text-align: center;
     color: #640a0a;
     font-size: 3rem;
     padding: 3rem;
     max-width: 50vh;
+    min-height: 100VH;
+    margin: 0 auto;
 }
+
+.main-content .razoes p {
+    font-size: 0;
+}
+
 
 .r1{
     text-align: right;
@@ -106,19 +111,19 @@
     text-align: left;
 }
 
-.main-content .content .r1:hover {
+.main-content .razoes .r1:hover {
     transition: all 300ms ease-in-out;
     text-shadow: 0.3rem -0.3rem .5rem #000;
     font-size: 3.5rem;
 }
 
-.main-content .content .r2:hover {
+.main-content .razoes .r2:hover {
     transition: all 300ms ease-in-out;
     text-shadow: .2rem .2rem .5rem #000;
     font-size: 3.5rem;
 }
 
-.main-content .content .r3:hover {
+.main-content .razoes .r3:hover {
     transition: all 300ms ease-in-out;
     text-shadow: -0.3rem 0.3rem .5rem #000;
     font-size: 3.5rem;
@@ -156,6 +161,8 @@
 }
 
 .gallery-img img {
+    max-width: 20rem;
+    max-height: 20rem;
     transition: all 300ms ease-in-out;
   }
 
@@ -189,61 +196,3 @@
     box-shadow: 0 .5rem .5rem #74184a inset;
     padding: 1rem;
    }
-
-
-@media (max-width:1300px) {
-    .gallery-img {
-        align-items: center;
-        margin: auto;
-        max-width: auto;
-        max-height: auto;
-      }
-    .grid {
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-}
-
-@media (max-width:800px) {
-    .grid {
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-    }
-    .main-content .razoes {
-        max-height: 20vh;
-        font-size: 2rem;
-    }
-
-    .main-content .content .r1:hover {
-        transition: all 300ms ease-in-out;
-        text-shadow: 0.3rem -0.3rem .5rem #000;
-        font-size: 2.5rem;
-    }
-    
-    .main-content .content .r2:hover {
-        transition: all 300ms ease-in-out;
-        text-shadow: .2rem .2rem .5rem #000;
-        font-size: 2.5rem;
-    }
-    
-    .main-content .content .r3:hover {
-        transition: all 300ms ease-in-out;
-        text-shadow: -0.3rem 0.3rem .5rem #000;
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width:400px){
-    img{
-        max-width: 333px;
-        max-height:auto;
-    }
-    .main-content .razoes {
-        max-height: 20vh;
-        font-size: 2rem;
-    }
-}
