@@ -1,2 +1,2 @@
 # site
-dominiodosite1.netlify.app
+https://dominiodosite1.netlify.app
