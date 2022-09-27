@@ -35,3 +35,7 @@ html {
 span{
   color: #550909;
 }
+
+input {
+  display: none;
+}
