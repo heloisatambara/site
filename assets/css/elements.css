@@ -33,7 +33,7 @@ html {
 }
 
 section {
-  height: 100VH;
+  min-height: 100VH;
 }
 
 span{
