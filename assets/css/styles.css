@@ -79,6 +79,7 @@
     max-width: 60rem;
     margin: 0 auto;
     min-height: 100VH;
+    align-items: center;
 }
 
 .main-content {
