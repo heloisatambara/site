@@ -185,4 +185,16 @@
    }
 
 
-
+@media (max-width:1200px) {
+    .gallery-img {
+        align-items: center;
+        max-width: auto;
+        max-height: auto;
+      }
+      .grid {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
