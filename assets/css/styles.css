@@ -79,7 +79,6 @@
     max-width: 60rem;
     margin: 0 auto;
     min-height: 100VH;
-    align-items: center;
 }
 
 .main-content {
@@ -208,5 +207,8 @@
         justify-content: space-between;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
+    }
+    .main-content{
+        max-height: 30vh;
     }
 }
