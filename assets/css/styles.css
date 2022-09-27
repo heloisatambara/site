@@ -213,11 +213,6 @@
         max-height: 20vh;
         font-size: 2rem;
     }
-    .gallery-img {
-        align-items: center;
-        max-width: 10rem;
-        max-height: 10rem;
-      }
 
     .main-content .content .r1:hover {
         transition: all 300ms ease-in-out;
