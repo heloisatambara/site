@@ -85,7 +85,7 @@
     align-items: center;
 }
 
-.main-content .content {
+.main-content .razoes {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -208,7 +208,7 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
     }
-    .main-content .content {
+    .main-content .razoes {
         max-height: 30vh;
     }
 }
