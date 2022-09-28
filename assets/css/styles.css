@@ -269,7 +269,8 @@
         display: block;
         margin-top: 1rem;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+        height: 7vh;
     }
 
 
