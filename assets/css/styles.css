@@ -248,18 +248,25 @@
 
     .menu-input-label::after{
         content: '☰';
-        position: fixed;
-        z-index: 2;
-        top: 0;
-        right: 0;
         font-size: 2.5rem;
-        text-align: center;
-        padding: .5rem;
         cursor: pointer;
+        margin: 0 1.5rem 0 0;
+    }
+
+    .menu {
+        justify-content: unset;
     }
 
     body{
         margin-top: 0;
+    }
+/* Quando clicar no menu: */
+    .menu-input:checked~.menu .links{
+        display: block;
+    }
+
+    .menu-input:checked~.menu-input-label::after {
+        content: '×';
     }
 
 }
