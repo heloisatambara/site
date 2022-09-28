@@ -183,7 +183,7 @@
     margin: auto;
   }
 
-  .contact .content {
+.contact .content {
     padding-top: 40vh;
   }
 
@@ -210,4 +210,33 @@
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+@media (max-width:550px)
+{
+    .main-content{
+        font-size: 2.5rem;
+    }
+    .main-content .razoes .r1:hover {
+        transition: all 300ms ease-in-out;
+        text-shadow: 0.3rem -0.3rem .5rem #000;
+        font-size: 3rem;
+    }
+    
+    .main-content .razoes .r2:hover {
+        transition: all 300ms ease-in-out;
+        text-shadow: .2rem .2rem .5rem #000;
+        font-size: 3rem;
+    }
+    
+    .main-content .razoes .r3:hover {
+        transition: all 300ms ease-in-out;
+        text-shadow: -0.3rem 0.3rem .5rem #000;
+        font-size: 3rem;
+    }
+
+
+    .contact .content {
+        font-size: 2rem;
+      }
 }
