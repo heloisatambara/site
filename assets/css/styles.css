@@ -270,7 +270,7 @@
         background-color: #C53D1F;*/
     }
 
-    .menu-input:checked~.menu {
+    .menu-input:checked~.menu{
         flex-direction: column;
         justify-content: center;
         height: 100vh;
