@@ -241,12 +241,12 @@
       }
 
 
-
+/* Compacta o menu para ser aberto somente ao clicar em ☰*/
     .menu{
         display: none;
     }
 
-    .menu-input-label{
+    .menu-input-label::after{
         content: '☰';
         position: fixed;
         z-index: 2;
@@ -259,6 +259,10 @@
         text-align: center;
         padding: .5rem;
         cursor: pointer;
+    }
+
+    body{
+        margin-top: 0;
     }
 
 }
