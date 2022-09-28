@@ -164,6 +164,7 @@
     max-width: 20rem;
     max-height: 20rem;
     transition: all 300ms ease-in-out;
+    margin: 0 auto;
   }
 
 .gallery-img img:hover {
