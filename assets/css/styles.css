@@ -243,10 +243,14 @@
 
 /* Compacta o menu para ser aberto somente ao clicar em ☰*/
     .menu-input-label::after{
-        content: '☰';
+        content: 'Por que casar comigo?';
         font-size: 2.5rem;
         cursor: pointer;
         margin: 0 1.5rem 0 0;
+        background-color: #C53D1F;
+        height: 3.5rem;
+        width: 100%;
+
     }
 
     .menu {
