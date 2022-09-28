@@ -183,7 +183,9 @@
     margin: auto;
   }
 
-
+  .contact .content {
+    padding-top: 40vh;
+  }
 
 
 
