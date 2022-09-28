@@ -196,3 +196,10 @@
     box-shadow: 0 .5rem .5rem #74184a inset;
     padding: 1rem;
    }
+
+@media (max-width:1200px)
+{
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
