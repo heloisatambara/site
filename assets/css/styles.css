@@ -242,10 +242,6 @@
 
 
 /* Compacta o menu para ser aberto somente ao clicar em ☰*/
-    .menu .links {
-        display: none;
-    }
-
     .menu-input-label::after{
         content: '☰';
         font-size: 2.5rem;
@@ -254,10 +250,13 @@
     }
 
     .menu {
-        justify-content: unset;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
     }
 
-    body{
+    body {
         margin-top: 0;
     }
 /* Quando clicar no menu: */
