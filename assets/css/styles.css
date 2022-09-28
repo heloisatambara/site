@@ -214,8 +214,8 @@
 
 @media (max-width:550px)
 {
-    .main-content{
-        font-size: 2.5rem;
+    .main-content .razoes {
+        font-size: 2rem;
     }
     .main-content .razoes .r1:hover {
         transition: all 300ms ease-in-out;
@@ -237,7 +237,7 @@
 
 
     .pride-bg:hover {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
 
@@ -266,11 +266,12 @@
     }
 /* Quando clicar no menu: */
     .menu-input:checked~.links{
-        display: block;
+        display: flex;
         margin-top: 1rem;
-        flex-direction: row;
-        justify-content: center;
-        height: 7vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
     }
 
 
