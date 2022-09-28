@@ -256,9 +256,6 @@
 
     .menu {
         justify-content: unset;
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
     }
 
     body{
@@ -267,11 +264,19 @@
 /* Quando clicar no menu: */
     .menu-input:checked~.links{
         display: block;
+        flex-direction: column;
         /*
         height: 100vh;
         width: 100vh;
         background-color: #C53D1F;*/
     }
+
+    .menu-input:checked~.menu {
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
 
     .menu-input:checked~.menu-input-label::after {
         content: '×';
