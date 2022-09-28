@@ -161,6 +161,7 @@
 }
 
 .gallery-img img {
+    display: block;
     max-width: 20rem;
     max-height: 20rem;
     transition: all 300ms ease-in-out;
@@ -238,4 +239,26 @@
     .pride-bg:hover {
         font-size: 2rem;
       }
+
+
+
+    .menu{
+        display: none;
+    }
+
+    .menu-input-label{
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        background-color: #C53D1F;
+        font-size: 3rem;
+        height: 3rem;
+        width: 3rem;
+        text-align: center;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
 }
