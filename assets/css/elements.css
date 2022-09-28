@@ -39,3 +39,7 @@ span{
 input {
   display: none;
 }
+
+label{
+  display: none;
+ }
