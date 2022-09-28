@@ -16,12 +16,12 @@
 
 <body>
  <section class="menu">
-  <input id="menu-input" type="checkbox">
+  <input id="menu-input" type="checkbox" aria-label="menu input" role="button">
   <label for="menu-input" class="menu-input-label"></label>
     <div class="title">
-        <a href="#"><h3><b> Por que casar comigo? </b> </h3></a>
+        <a href="#" onclick="getElementById('menu-input').checked = false;"><h3><b> Por que casar comigo? </b> </h3></a>
     </div>
-    <div class="links">
+    <div class="links" onclick="getElementById('menu-input').checked = false;">
         <a href="#main-content">Razões</a>
         <a href="#gallery">Imagens</a>
         <a href="#contact">Contato</a>
