@@ -242,7 +242,7 @@
 
 
 /* Compacta o menu para ser aberto somente ao clicar em ☰*/
-    .menu{
+    .menu .links {
         display: none;
     }
 
@@ -252,10 +252,7 @@
         z-index: 2;
         top: 0;
         right: 0;
-        background-color: #C53D1F;
-        font-size: 3rem;
-        height: 3rem;
-        width: 3rem;
+        font-size: 2.5rem;
         text-align: center;
         padding: .5rem;
         cursor: pointer;
